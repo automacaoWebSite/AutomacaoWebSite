@@ -12,7 +12,7 @@ public class MetodosPage {
 	public void abrirnavegador(String url) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ellbe\\Desktop\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-		// driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.get(url);
 
 		 

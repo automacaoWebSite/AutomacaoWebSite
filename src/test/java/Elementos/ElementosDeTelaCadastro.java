@@ -14,11 +14,13 @@ public class ElementosDeTelaCadastro {
 	private By gener = By.xpath("//*[@id=\"basicBootstrapForm\"]/div[5]/div/label[1]/input");
 	private By hobbies = By.xpath("//*[@id=\"checkbox2\"]");
 	
-	 private By languages = By.xpath("//*[@id='msdd']");
+	 private By languages = By.xpath("//*[@id=\"msdd\"]");
 	 private By languagess = By.xpath("/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[29]/a");
     
 	private By skills = By.xpath("//*[@id=\"Skills\"]/option[5]");
+	
 	//private By country = By.xpath("//*[@id=\"countries\"]");
+	
 	private By selectCountry = By.cssSelector("#country > option:nth-child(2)");
 	private By dateOfBirtha = By.xpath("//*[@id=\"yearbox\"]/option[83]");
 	private By dateOfBirthm = By.xpath("//*[@id=\"basicBootstrapForm\"]/div[11]/div[2]/select/option[3]");
